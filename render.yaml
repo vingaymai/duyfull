@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: duyfull-laravel
+    env: docker
+    plan: free
+    autoDeploy: true
+    branch: main
+    buildCommand: ""
+    startCommand: "apache2-foreground"
